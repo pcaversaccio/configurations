@@ -11,3 +11,4 @@ set incsearch
 set ruler
 set showmatch
 highlight Comment ctermfg=green
+execute pathogen#infect()
