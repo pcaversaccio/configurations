@@ -1,4 +1,7 @@
 # Configurations
+
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-blue.svg)](http://www.wtfpl.net/about)
+
 This repository is used as a monorepo to store and publicly share my personal configurations that I use across various systems.
 
 <p align="center">
