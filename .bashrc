@@ -9,6 +9,12 @@ alias pw='bash -c '"'"'echo `tr -dc $([ $# -gt 1 ] && echo $2 || echo "A-Za-z0-9
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+# git clone a repo and cd into it
+gcc() {
+    git clone $1
+    cd $(echo $1 | grep -oE '([^/]+)\.git$' | sed 's/\.git$//')
+}
+
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxcgcdabagacad
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
