@@ -1,5 +1,5 @@
 # Set `vim` alias
-Set-alias vi "C:\Program Files (x86)\Vim\vim90\vim.exe"
+Set-alias vi "C:\Program Files (x86)\Vim\vim91\vim.exe"
 
 # Set alias to create and activate a virtualenv on Windows using the `python` command
 Set-alias venv createPythonEnvironment
