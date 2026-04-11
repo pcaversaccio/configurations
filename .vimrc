@@ -10,5 +10,9 @@ set hlsearch
 set incsearch
 set ruler
 set showmatch
+set clipboard=unnamedplus
+vnoremap <C-c> "+y
+nnoremap <C-v> "+p
+inoremap <C-v> <C-r>+
 highlight Comment ctermfg=green
 execute pathogen#infect()
